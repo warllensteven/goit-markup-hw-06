@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF -8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widht,initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css" />
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p class="form-title">Deje sus datos,nos contactaremos con usted</p>
+        <form class="form">
+          <div class="form-field">
+            <label>
+              <p class="form-field-titles">Nombre</p>
+              <div class="container-name">
+                <input class="form-field-text" type="text" name="name">
+                <svg class="svg-name" width="12px" height="12px">
+                  <use href="./images/icons.svg#icon-name">
+                  </use>
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div class="form-field">
+            <label>
+              <p class="form-field-titles">Telefono</p>
+              <div class="container-tel">
+                <input class="form-field-text" type="tel" name="tel">
+                <svg class="svg-tel" width="12px" height="12px">
+                  <use href="./images/icons.svg#icon-tel">
+                  </use>
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div class="form-field">
+            <label>
+              <p class="form-field-titles">Email</p>
+              <div class="container-email">
+                <input  class="form-field-text" type="email" name="email">
+                <svg class="svg-email" width="12px" height="12px">
+                  <use href="./images/icons.svg#icon-email">
+                  </use>
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div class="comment-field">
+            <label>
+              <p class="comment-field-title">Comentarios</p>
+              <div>
+                <textarea class="comment-field-text" name="comments" id="comments" cols="66" rows="5" placeholder="Introduzca el texto"></textarea>
+              </div>
+            </label>
+          </div>
+          <div class="checkbox-field">
+            <label>
+              <ul class="section-checkbox">
+                <li>
+                  <input class="button-checkbox" type="checkbox">
+                </li>
+                <li>
+                  <svg class="cuadro-negro" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-cuadro-negro">
+                    </use>
+                  </svg>
+                </li>
+                <li>
+                  <p class="text-checkbox">Estoy de acuerdo con el boletin informativo y acepto los Terminos y Condiciones</p>
+                </li>
+              </ul>
+            </label>
+          </div>
+          <button class="formulario-button form-button" type="submit">Enviar</button>
+        </form>
+        <p></p>
+        <button class="button-close" data-modal-close><svg class="close" width="11px" height="11px"><use href="./images/icons.svg#icon-close"></use></svg></button>
+      </div>
+    </div>
+    <div>
+    <header>
+      <div class="section-header container">
+        <nav class="menu-main-list">
+          <a class="sub-menu logo" href="http://127.0.0.1:5500/index.html">WebStudio</a>
+          <ul class="menu list">
+            <li class="sub-menu current"><a class="header-link-selected" href="http://127.0.0.1:5500/index.html#"><p>Estudio</p></a><div class="current-son"></div></a></li>
+            <li class="sub-menu"><a href="./portafolio.html">Portafolio</a></li>
+            <li class="sub-menu">Contactos</li>
+          </ul>
+        </nav>
+        <ul class="menu list">        
+          <li class="sub-menu menu-contact"><svg class="icon-contacts" width="16" height="12"><use href="./images/icons.svg#icon-sobre1"></use></svg><a href="mailto:info@estudio.com">info@estudio.com</a></li>
+          <li class="sub-menu menu-contact"><svg class="icon-contacts" width="16" height="12"><use href="./images/icons.svg#icon-telfono-inteligente"></use></svg><a href="tel:+55 5529 6000">+55 5529 6000</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+        <section class="section-title-main">
+          <h1 class="title-main">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+          <button data-modal-open class="button-main" >Solicite Nuestro Servicio</button>
+        </section>
+        <section>
+          <ul class="container section-paragraphs-main list">
+            <li class="paragraphs-main">
+              <div class="icons-main">
+                <svg  width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-antena">
+                  </use>
+                </svg>
+              </div>
+              <h3>ATENCION A LOS DETALLES</h3>
+              <p>
+                Nos adentramos en todos los detalles y procesos de su negocio,
+                para así desarrollar una solución a su medida
+              </p>
+            </li>
+            <li class="paragraphs-main">
+              <div class="icons-main">
+                <svg  width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-reloj">
+                  </use>
+                </svg>
+              </div>
+              <h3>PUNTUALIDAD</h3>
+              <p>
+                Con nosotros, usted puede sentirse seguro y protegido. Un
+                principio importante de la empresa: respetar su tiempo y
+                respetar los plazos acordados.
+              </p>
+            </li>
+            <li class="paragraphs-main">
+              <div class="icons-main">
+                <svg  width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-diagrama">
+                  </use>
+                </svg>
+              </div>
+              <h3>PLANIFICACIÓN</h3>
+              <p>
+                Usted podrá observar y participar en cada
+                fase del desarrollo y aplicación de soluciones.
+              </p>
+            </li>
+            <li class="paragraphs-main">
+              <div class="icons-main">
+                <svg  width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-astronauta">
+                  </use>
+                </svg>
+              </div>
+              </svg>
+              <h3>TEGNOLOGÍA MODERNA</h3>
+              <p>
+                Usamos herramientas innovadoras para resolver las tareas
+                asignadas. Es hora de simplificar los procesos laborales.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section class="section-definition container">
+        <h2 class="title-secundary">A que nos dedicamos</h2>
+        <div class="container">
+          <ul class="section-definition-list list">
+            <li class="img-definition">
+              <img
+                src="./images/tabletaconcodigo.jpg"
+                alt="imagen de tableta del menu"
+                width="373.16px"
+                height="auto"
+              />
+              <div class="background-definition">
+                <p class="background-title">APLICACIONES DE ESCRITORIO</p>
+              </div>
+            </li>
+            <li class="img-definition">
+              <img
+                src="./images/tabletconhexagono.jpg"
+                alt="imagen de tableta con hexagono del menu"
+                width="373.16px"
+                height="auto"
+              />
+              <div class="background-definition">
+                <p class="background-title">APLICACIONES MOVILES</p>
+              </div>
+            </li>
+            <li class="img-definition">
+              <img
+                src="./images/pcycelular.jpg"
+                alt="imagen de pc y celular del menu"
+                width="373.16px"
+                height="auto"
+              />
+              <div class="background-definition">
+                <p class="background-title">SOLUCIONES DE DISEÑO</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-team-background">
+        <div class="container section-team">
+          <h2 class="title-team">Nuestro equipo</h2>
+          <ul class="section-team-list list">
+            <li class="img-team">
+              <img
+                src="./images/hombregafasbarbacamisa.jpg"
+                alt="hombre gafas barba camisa parte del equipo"
+                width="260px"
+                height="auto"
+              />
+              <h3>Andrés Cubo</h3>
+              <p>Diseñador de Productos</p>
+              <ul class="icon-section">
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+            <li class="img-team">
+              <img
+                src="./images/mujerrubiagafas.jpg"
+                alt="mujer que hace parte del equipo"
+                width="260px"
+                height="auto"
+              />
+              <h3>Carla Palacios</h3>
+              <p>Desarrolladora Frontend</p>
+              <ul class="icon-section">
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>  
+            <li class="img-team">
+              <img
+                src="./images/hombrecamisa.jpg"
+                alt="hombrecamisapartedelequippo"
+                width="260px"
+                height="auto"
+              />
+              <h3>Mario Dorado</h3>
+              <p>Marketing</p>
+              <ul class="icon-section">
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+            <li class="img-team">
+              <img
+                src="./images/hombregafascamisetanegra.jpg"
+                alt="hombre camiseta parte del equipo"
+                width="260px"
+                height="auto"
+              />
+              <h3>Pablo Mijangos</h3>
+              <p>Diseñador IU</p>
+              <ul class="icon-section">
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li class="icon-social">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clientes">
+        <h3>Clientes regulares</h3>
+        <ul class="container icon-clientes">
+          <li class="icons-clientes">
+            <svg width="41px" height="46.6px">
+              <use href="./images/icons.svg#icon-marco-dividido"></use>
+            </svg>
+          </li>
+          <li class="icons-clientes">
+            <svg width="40px" height="52px">
+              <use href="./images/icons.svg#icon-libro-compant"></use>
+            </svg>
+          </li>
+          <li class="icons-clientes">
+            <svg width="43.46px" height="41.18px">
+              <use href="./images/icons.svg#icon-fruta-compant"></use>
+            </svg>
+          </li>
+          <li class="icons-clientes foster">
+            <svg width="84.44px" height="40.62px">
+              <use href="./images/icons.svg#icon-foster-peters"></use>
+            </svg>
+          </li>
+          <li class="icons-clientes">
+            <svg width="62.54px" height="45.43px">
+              <use href="./images/icons.svg#icon-libro-abierto"></use>
+            </svg>
+          </li>
+          <li class="icons-clientes">
+            <svg width="93.79px" height="43.93px">
+              <use href="./images/icons.svg#icon-cubo"></use>
+            </svg>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="container section-footer">
+        <div class="footer-container">
+          <a href="http://127.0.0.1:5500/index.html"> WebStudio</a>
+          <address>
+            Calz. Ticomán 500, Ciudad de México, CDMX, México
+          <ul class="nav_contact list">
+            <li><a class="mail-footer" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="tel-footer" href="tel:+52 55 5529 6000">+52 55 5529 6000</a></li>
+          </address>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3 class="title-social">ENCUENTRENOS EN</h3>
+          <ul class="social-footer">
+            <li class="icon-social-footer">
+              <svg width="20px" height="20px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </li>
+            <li class="icon-social-footer">
+              <svg width="20px" height="20px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="icon-social-footer">
+              <svg width="20px" height="20px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li class="icon-social-footer">
+              <svg width="20px" height="20px">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </li>
+          </ul>
+          </div>
+            <div class="formulario-footer">
+          <h3 class="title-formulario">SUSCRIBASE AL BOLETIN INFORMATIVO</h3>
+          <div class="formulario-buttons">
+            <form name="formulario" autocomplete="on" novalidate>
+              <label>
+                <input class="button-footer" type="email" name="correoElectronico" placeholder="Correo electronico">
+              </label>            
+              <button class="button-enviar" type="submit">
+                <div class="elements-enviar">
+                  <p class="suscribase">Suscribase</p>
+                  <svg class="icon-enviar" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-enviar"></use>
+                </svg>
+                </div>
+            </button>
+            </form>
+          </div>
+          </div>
+      </div>
+        </section>
+    </footer>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
